@@ -43,6 +43,7 @@ $ docker run -d -p 8080:8080 --name=se-demo kaushald/se-demo
 #### Run the test
 
 ```
+cd psr
 artillery run -o memleak.json config.yml
 ```
 
